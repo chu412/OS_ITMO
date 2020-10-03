@@ -1,0 +1,2 @@
+#!/bin/bash
+ps -aux | grep -s -i -o '[[:alpha:]]\{4,\}' | sort | uniq -i -c | sort -n

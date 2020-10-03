@@ -1,0 +1,8 @@
+#!/bin/bash
+read line
+while [[ "$line" != "q" ]]
+do answer="$answer$line"
+read line
+done
+echo $answer
+

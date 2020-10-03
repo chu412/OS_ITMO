@@ -1,0 +1,21 @@
+#1/bin/bash
+echo "MENU"
+echo "1. Start nano."
+echo "2. Start vi."
+echo "3. Start links."
+echo "4. Exit..."
+read option
+case $option in
+1)
+nano
+;;
+2) 
+vi
+;;
+3)
+links
+;;
+4)
+exit 0
+;;
+esac
