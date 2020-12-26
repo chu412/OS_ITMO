@@ -1,0 +1,3 @@
+Comparing files service.txt and SERVICENEW.TXT
+FC: no differences encountered
+

@@ -1,0 +1,4 @@
+
+driverquery /FO TABLE /NH > DRIVERS
+
+sort /R < DRIVERS > SORTDRIVERS
